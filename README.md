@@ -1,32 +1,21 @@
-# Demonic-Destruction
+Introducción
+
+Demonic-Destruction es un trepidante juego de acción y supervivencia con una vibrante mezcla de elementos roguelite. En este emocionante universo, los jugadores enfrentan la invasión demoníaca, combatiendo implacables hordas de enemigos en un desafío de resistencia y astucia.
+
+Características Principales
+
+Combate Dinámico: Enfréntate a una variedad de demonios, cada uno con sus propias habilidades y tácticas. A medida que avanzas, los enemigos derrotados dejarán caer ítems que podrás recoger y utilizar para mejorar tus habilidades de supervivencia.
+Mecánicas Roguelite: Experimenta la intensidad de las hordas aleatorias de enemigos en cada partida, asegurando una experiencia única y desafiante en cada intento.
+Controles Intuitivos: Navega por el mundo del juego utilizando las teclas A (Izquierda), S (Abajo), D (Derecha) y W (Arriba). Lucha contra los enemigos con ataques interactivos activados por la tecla ESPACIO.
+Estética Artística: Sumérgete en un entorno inicialmente renderizado en blanco y negro, con posibilidades de expansión a colores basados en la recepción y comentarios de los jugadores.
+Exploración de Mapas: Explora un mapa expansivo y único, diseñado para ofrecer libertad de movimiento y encuentros constantes con hordas de enemigos.
+Interfaz Usuario Pixel Art: Disfruta de una interfaz de usuario intuitiva y atractiva con un diseño clásico de pixel art.
+Sistema de Seguimiento: Mantén un registro de tu tiempo de supervivencia y estadísticas de los enemigos, como tipo, salud y categoría, a través de un sistema de contador y métodos de visualización eficientes.
+Opciones del Menú Principal
+
+Iniciar Partida: Comienza tu aventura y desafía las hordas demoníacas.
+Cerrar Juego: Sal del juego cuando necesites un respiro de la acción.
 
 
-
-Juego de acción y supervivencia con elementos roguelite en el cual se trata de sobrevivir a
-la invasión de los demonios luchando contra ellos. Este juego consistirá en una serie de
-hordas de enemigos aleatorias en las cuales hay que ir eliminando dichos monstruos y
-estos irán soltando diversos items que puedes ir almacenando y utilizando. Estos monstruos
-se dividen en diversas especies de demonios los cuales van a intentar acabar con el
-humano más cercano el cual es el jugador.
-
-
-Al principio hay dos opciones las cuales son la de INICIAR PARTIDA y la de CERRAR
-JUEGO entre las que podrás elegir.
-
-En este juego el personaje se va a mover reaccionando a las teclas A S D W siendo
-Izquierda Abajo Derecha y Arriba consecutivamente. Además de estas opciones en el
-movimiento, el ataque del personaje se realiza de forma interactiva de modo que al pulsar la
-tecla ESPACIO ejecuta el ataque.
-
-En cuanto al color de las diversas cosas dentro del juego, inicialmente va a ser blanco y
-negro el cual veremos como queda y de esta forma continuar con los colores o no.
-
-En cuanto al mapa, la idea es poder hacer un solo mapa en el que uno pueda moverse con
-la libertad necesaria en el cual vayan llegando las diversas hordas de enemigos.
-
-Para la interfaz de usuario tenemos pensado una interfaz 2D tipo pixel art.
-
-Tenemos un contador que va mostrando el tiempo que esta vivo el jugador, asi como metodos que muestran el tipo,vida y categoria de los mounstros.
-Tambien tenemos ya el dibujo de los mounstros.
 
 
