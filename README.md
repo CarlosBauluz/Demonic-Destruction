@@ -12,9 +12,10 @@ Demonic-Destruction es un trepidante juego de acción y supervivencia con una vi
 - Interfaz Usuario Pixel Art: Disfruta de una interfaz de usuario intuitiva y atractiva con un diseño clásico de pixel art.
 - Sistema de Seguimiento: Mantén un registro de tu tiempo de supervivencia y estadísticas de los enemigos, como tipo, salud y categoría, a través de un sistema de contador y métodos de visualización eficientes.
 - Opciones del Menú Principal
+  
+- Iniciar Partida: Comienza tu aventura y desafía las hordas demoníacas.
 
-Iniciar Partida: Comienza tu aventura y desafía las hordas demoníacas.
-Cerrar Juego: Sal del juego cuando necesites un respiro de la acción.
+- Cerrar Juego: Sal del juego cuando necesites un respiro de la acción.
 
 
 
