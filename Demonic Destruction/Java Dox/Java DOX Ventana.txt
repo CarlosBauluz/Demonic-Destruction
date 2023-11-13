@@ -1,0 +1,52 @@
+package Clases;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+/**
+ * Clase Ventanagrafica, que extiende de JFrame, para crear una ventana gráfica para un juego.
+ * Contiene botones para empezar y cerrar el juego.
+ */
+public class Ventanagrafica extends JFrame {
+
+    /**
+     * Constructor para inicializar la ventana gráfica.
+     * Configura el tamaño de la ventana, el layout, y añade los botones de control del juego.
+     */
+    public Ventanagrafica() {
+        super("Game Window"); // Título de la ventana
+        setSize(600, 400); // Dimensiones de la ventana
+        setLayout(new FlowLayout()); // Establece el layout
+
+        // Creación y configuración del botón para empezar el juego
+        JButton startButton = new JButton("EMPEZAR JUEGO");
+        startButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Aquí se inicia el juego.
+                Ventanajuego juego = new Ventanajuego(); // Crea una nueva ventana de juego
+                // Otros códigos comentados relacionados con la lógica del juego
+            }
+        });
+
+        // Creación y configuración del botón para cerrar el juego
+        JButton closeButton = new JButton("CERRAR JUEGO");
+        closeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Game closed!"); // Mensaje de consola
+                System.exit(0); // Cierra la aplicación
+            }
+        });
+
+        // Añadiendo los botones a la ventana
+        add(startButton);
+        add(closeButton);
+
+        // Hace visible la ventana
+        setVisible(true);
+    }
+
+}

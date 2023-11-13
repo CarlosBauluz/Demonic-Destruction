@@ -1,0 +1,95 @@
+package Clases;
+
+/**
+ * Representa un jugador en el juego.
+ * El jugador tiene atributos como nombre, estado de vida, salud y daño.
+ */
+public class Jugador {
+    private String nombre;
+    private boolean jugadorVivo;
+    private int health;
+    private int damage;
+
+    /**
+     * Constructor por defecto para crear un jugador.
+     * Inicializa al jugador como vivo con 500 de salud y 50 de daño.
+     */
+    public Jugador() {
+        this.jugadorVivo = true;
+        this.health = 500; 
+        this.damage = 50; 
+    }
+
+    /**
+     * Establece el nombre del jugador.
+     * 
+     * @param nombre El nombre a asignar al jugador.
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * Obtiene el nombre del jugador.
+     * 
+     * @return El nombre del jugador.
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * Verifica si el jugador está vivo.
+     * 
+     * @param jugador El jugador a verificar.
+     * @return Verdadero si el jugador está vivo, falso de lo contrario.
+     */
+    public boolean isJugadorVivo(Jugador jugador) {
+        return jugador.gethealth() > 0;
+    }
+
+    /**
+     * Establece el estado del jugador como muerto.
+     * Cambia el estado de vida a falso y la salud a 0.
+     */
+    public void setJugadorMuerto() {
+        this.jugadorVivo = false;
+        this.health = 0;
+    }
+
+    /**
+     * Obtiene la salud actual del jugador.
+     * 
+     * @return La salud actual del jugador.
+     */
+    public int gethealth() {
+        return health;
+    }
+
+    /**
+     * Establece la salud del jugador.
+     * 
+     * @param vida La cantidad de salud a asignar al jugador.
+     */
+    public void sethealth(int vida) {
+        this.health = vida;
+    }
+
+    /**
+     * Obtiene el daño que el jugador puede infligir.
+     * 
+     * @return El daño del jugador.
+     */
+    public int getDamage() {
+        return damage;
+    }
+
+    /**
+     * Establece el daño que el jugador puede infligir.
+     * 
+     * @param danio La cantidad de daño a asignar al jugador.
+     */
+    public void setDamage(int danio) {
+        this.damage = danio;
+    }
+}

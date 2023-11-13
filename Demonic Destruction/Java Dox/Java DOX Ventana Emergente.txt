@@ -1,0 +1,50 @@
+package Clases;
+
+import javax.swing.*;
+import java.awt.*;
+
+/**
+ * Clase Ventanajuego, que extiende de JFrame, para crear una ventana específica del juego.
+ * Esta ventana maneja la visualización del mapa del juego y el movimiento del personaje.
+ */
+public class Ventanajuego extends JFrame {
+
+    /**
+     * Constructor de Ventanajuego. Configura la ventana del juego, incluyendo el tamaño,
+     * el comportamiento de cierre, el layout y los componentes gráficos como el mapa y el panel de movimiento.
+     */
+    public Ventanajuego() {
+        super("Game Window"); // Título de la ventana
+        setSize(1000, 800); // Dimensiones de la ventana
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Comportamiento de cierre
+
+        setLayout(new BorderLayout()); // Establece el layout
+
+        // Creación de un JLayeredPane para manejar diferentes capas de componentes
+        JLayeredPane layeredPane = new JLayeredPane();
+        layeredPane.setLayout(null); // Sin layout para permitir ubicación absoluta
+
+        // Configuración y adición de la etiqueta con el mapa del juego
+        ImageIcon icono = new ImageIcon("mapajuego (1).png"); // Icono del mapa
+        JLabel etiqueta = new JLabel(icono); // Etiqueta que contiene el icono
+        etiqueta.setBounds(0, 0, icono.getIconWidth(), icono.getIconHeight()); // Dimensiones de la etiqueta
+
+        // Creación y configuración del panel de movimiento del personaje
+        Movimientopj panelMovimiento = new Movimientopj();
+        panelMovimiento.setBounds(0, 0, 100, 400); // Dimensiones del panel de movimiento
+
+        // Añadiendo componentes al JLayeredPane
+        layeredPane.add(etiqueta, JLayeredPane.DEFAULT_LAYER); // Añade el mapa
+        layeredPane.add(panelMovimiento.pj, JLayeredPane.PALETTE_LAYER); // Añade el personaje
+
+        // Configuración del tamaño preferido del JLayeredPane basado en el tamaño del icono del mapa
+        layeredPane.setPreferredSize(new Dimension(icono.getIconWidth(), icono.getIconHeight()));
+
+        // Añade el JLayeredPane al JFrame
+        getContentPane().add(layeredPane, BorderLayout.CENTER);
+
+        setLocationRelativeTo(null); // Centra la ventana
+
+        setVisible(true); // Hace visible la ventana
+    }
+}
