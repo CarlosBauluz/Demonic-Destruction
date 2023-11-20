@@ -19,6 +19,11 @@ Demonic-Destruction es un trepidante juego de acción y supervivencia con una vi
 
   - Cerrar Juego: Sal del juego cuando necesites un respiro de la acción.
  
+ # Imagen del juego Iniciado
+
+ ![imagenjuegopaentrega](https://github.com/CarlosBauluz/Demonic-Destruction/assets/145339678/a987f36a-b730-4c3d-a83b-e5bf55b6fce2)
+
+ 
  # Diagrama UML
 
 ![DemonicDestruction drawio](https://github.com/CarlosBauluz/Demonic-Destruction/assets/145339678/d6a2e4f0-d28d-426f-9b61-821ed39e0632)
