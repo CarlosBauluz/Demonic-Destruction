@@ -21,7 +21,7 @@ Demonic-Destruction es un trepidante juego de acción y supervivencia con una vi
  
  # Imagen del juego Iniciado
 
- ![imagenjuegopaentrega](https://github.com/CarlosBauluz/Demonic-Destruction/assets/145339678/a987f36a-b730-4c3d-a83b-e5bf55b6fce2)
+ ![imagenjuegopaentrega](https://github.com/CarlosBauluz/Demonic-Destruction/Juego en funccionamiento.png)
 
  - Imagen donde se ve la generación de monstruos de forma aleatoria
 
