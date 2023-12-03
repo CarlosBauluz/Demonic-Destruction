@@ -27,40 +27,40 @@ Demonic-Destruction es un trepidante juego de acción y supervivencia con una vi
 
   # Funccionamiento del codigo
 
-  Clase Jugador
-  Representa al jugador en el juego.
-  Mantiene propiedades como health (salud), damage (daño), posición (x, y), y estado de vida (jugadorVivo).
-  Incluye métodos para mover al jugador, atacar a los enemigos, recibir daño y verificar la invulnerabilidad.
-  Gestiona el cooldown de habilidades especiales como el escudo y el ataque masivo.
-  Clase Monstruo
-  Representa a los enemigos en el juego.
-  Cada monstruo tiene atributos como salud, daño, tipo y posición.
-  Incluye métodos para recibir daño y morir, así como para actualizar su posición en el mapa.
-  Clase Oleadas
-  Gestiona la generación y manejo de oleadas de enemigos.
-  Controla la cantidad y tipo de enemigos que aparecen en cada oleada.
-  Incluye métodos para agregar y eliminar enemigos, así como para generar nuevos enemigos cerca del jugador.
-  Clase Ventanajuego
-  Es el núcleo del juego, donde se maneja la lógica principal y la interfaz gráfica.
-  Gestiona la creación y actualización de todos los elementos del juego, incluyendo el jugador, enemigos, power-ups y el mapa.
-  Incluye un bucle principal (timer) que actualiza constantemente el estado del juego.
-  Maneja la interacción del usuario a través de eventos de teclado.
-  Clases PowerUpDanio y PowerUpVelocidad
-  Representan power-ups (mejoras) que el jugador puede recoger en el juego.
-  Afectan temporalmente las habilidades del jugador, como aumentar el daño o la velocidad.
-  Clase Curacion
-  Representa ítems de curación que el jugador puede recoger para restaurar salud.
-  Clase FinJuegoVentana
-  Se activa cuando el jugador muere, mostrando estadísticas como el tiempo sobrevivido y los enemigos enfrentados.
-  Permite reiniciar el juego o salir.
-  Funcionamiento General
-  Al iniciar el juego, se crea una instancia de Ventanajuego, que a su vez inicializa el jugador, los enemigos, y otros elementos.
-  El juego se actualiza en intervalos regulares mediante un timer, que controla el movimiento de los enemigos, la detección de colisiones, y las actualizaciones de estado.
-  El jugador se mueve por el mapa y combate enemigos usando controles de teclado.
-  A medida que el jugador avanza, se enfrenta a oleadas más difíciles y puede recoger power-ups y curaciones para ayudar en su supervivencia.
-  Interacción y Gráficos
-  La interacción del usuario se maneja principalmente a través de eventos de teclado.
-  La interfaz gráfica utiliza Swing y se actualiza constantemente para reflejar el estado actual del juego.
+  - Clase Jugador
+  - Representa al jugador en el juego.
+  - Mantiene propiedades como health (salud), damage (daño), posición (x, y), y estado de vida (jugadorVivo).
+  - Incluye métodos para mover al jugador, atacar a los enemigos, recibir daño y verificar la invulnerabilidad.
+  - Gestiona el cooldown de habilidades especiales como el escudo y el ataque masivo.
+  - Clase Monstruo
+  -Representa a los enemigos en el juego.
+  - Cada monstruo tiene atributos como salud, daño, tipo y posición.
+  - Incluye métodos para recibir daño y morir, así como para actualizar su posición en el mapa.
+  - Clase Oleadas
+  - Gestiona la generación y manejo de oleadas de enemigos.
+  - Controla la cantidad y tipo de enemigos que aparecen en cada oleada.
+  - Incluye métodos para agregar y eliminar enemigos, así como para generar nuevos enemigos cerca del jugador.
+  - Clase Ventanajuego
+  - Es el núcleo del juego, donde se maneja la lógica principal y la interfaz gráfica.
+  - Gestiona la creación y actualización de todos los elementos del juego, incluyendo el jugador, enemigos, power-ups y el mapa.
+  - Incluye un bucle principal (timer) que actualiza constantemente el estado del juego.
+  - Maneja la interacción del usuario a través de eventos de teclado.
+  - Clases PowerUpDanio y PowerUpVelocidad
+  - Representan power-ups (mejoras) que el jugador puede recoger en el juego.
+  - Afectan temporalmente las habilidades del jugador, como aumentar el daño o la velocidad.
+  - Clase Curacion
+  - Representa ítems de curación que el jugador puede recoger para restaurar salud.
+  - Clase FinJuegoVentana
+  - Se activa cuando el jugador muere, mostrando estadísticas como el tiempo sobrevivido y los enemigos enfrentados.
+  -Permite reiniciar el juego o salir.
+  - Funcionamiento General
+  - Al iniciar el juego, se crea una instancia de Ventanajuego, que a su vez inicializa el jugador, los enemigos, y otros elementos.
+  - El juego se actualiza en intervalos regulares mediante un timer, que controla el movimiento de los enemigos, la detección de colisiones, y las actualizaciones de estado.
+  - El jugador se mueve por el mapa y combate enemigos usando controles de teclado.
+  - A medida que el jugador avanza, se enfrenta a oleadas más difíciles y puede recoger power-ups y curaciones para ayudar en su supervivencia.
+  - Interacción y Gráficos
+  - La interacción del usuario se maneja principalmente a través de eventos de teclado.
+  - La interfaz gráfica utiliza Swing y se actualiza constantemente para reflejar el estado actual del juego.
 
  
  # Diagrama UML
