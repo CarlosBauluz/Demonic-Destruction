@@ -87,7 +87,7 @@ public class Ventanajuego extends JPanel implements KeyListener, Observador {
 
                 // Inicializar el jugador en el centro del panel
                 jugador = new Jugador(this);
-                iconoPersonaje = new ImageIcon("/Users/eric/Desktop/Texturas/Personaje normal.png");
+                iconoPersonaje = new ImageIcon("Personaje normal.png");
                 etiquetaPersonaje = new JLabel(iconoPersonaje);
 
                 // Calcular la posición central del panel
@@ -188,7 +188,7 @@ public class Ventanajuego extends JPanel implements KeyListener, Observador {
                 generarPowerUpsVelocidad();
 
                 // Cargar y configurar el fondo
-                iconoFondo = new ImageIcon("/Users/eric/Desktop/Texturas/MapaJuego.pn");
+                iconoFondo = new ImageIcon("MapaJuego.png");
                 etiquetaFondo = new JLabel(iconoFondo);
                 etiquetaFondo.setBounds(0, 0, iconoFondo.getIconWidth(), iconoFondo.getIconHeight());
                 add(etiquetaFondo, Integer.valueOf(0)); // Fondo en la capa más baja
@@ -239,16 +239,16 @@ public class Ventanajuego extends JPanel implements KeyListener, Observador {
 
                                 switch (tipoAleatorio) {
                                         case BESTIA:
-                                                iconoEnemigo = new ImageIcon("/Users/eric/Desktop/Texturas/lobo.png");
+                                                iconoEnemigo = new ImageIcon("lobo.png");
                                                 break;
                                         case NO_MUERTO:
-                                                iconoEnemigo = new ImageIcon("/Users/eric/Desktop/Texturas/verde.png");
+                                                iconoEnemigo = new ImageIcon("verde.png");
                                                 break;
                                         case DEMONIO:
-                                                iconoEnemigo = new ImageIcon("/Users/eric/Desktop/Texturas/rojo.png");
+                                                iconoEnemigo = new ImageIcon("rojo.png");
                                                 break;
                                         case VAMPIRO:
-                                                iconoEnemigo = new ImageIcon("/Users/eric/Desktop/Texturas/vampiro.png");
+                                                iconoEnemigo = new ImageIcon("vampiro.png");
                                                 break;
                                         default:
                                                 iconoEnemigo = null; // Asignar null para forzar la repetición del bucle
@@ -462,7 +462,7 @@ public class Ventanajuego extends JPanel implements KeyListener, Observador {
 
         //geneera los enemigos, no los iniciales, si no los que van poco a poco apareciendo a mediad que mueren los otros
         private void generarEnemigos(int numeroEnemigos) {
-                ImageIcon iconoEnemigo = new ImageIcon("/Users/eric/Desktop/Texturas/vampiro.png");
+                ImageIcon iconoEnemigo = new ImageIcon("vampiro.png");
 
                 for (int i = 0; i < numeroEnemigos; i++) {
                         // Crear un nuevo enemigo
@@ -611,7 +611,7 @@ public class Ventanajuego extends JPanel implements KeyListener, Observador {
                 for (int i = 0; i < 15; i++) { // Genera 3 power-ups de daño, por ejemplo
                         int x = random.nextInt(ANCHO_MAPA);
                         int y = random.nextInt(ALTO_MAPA);
-                        PowerUpDanio powerUp = new PowerUpDanio(x, y, "/Users/eric/Desktop/Texturas/PowerUpDaño.png", 20, 20000); // Ajusta los parámetros según sea necesario
+                        PowerUpDanio powerUp = new PowerUpDanio(x, y, "PowerUpDaño.png", 20, 20000); // Ajusta los parámetros según sea necesario
                         powerUpsDanio.add(powerUp);
                         add(powerUp.getEtiquetaPowerUp(), Integer.valueOf(1));
                         powerUp.getEtiquetaPowerUp().setVisible(true);
@@ -623,7 +623,7 @@ public class Ventanajuego extends JPanel implements KeyListener, Observador {
                 for (int i = 0; i < 15; i++) { // Genera 3 power-ups de velocidad, por ejemplo
                         int x = random.nextInt(ANCHO_MAPA);
                         int y = random.nextInt(ALTO_MAPA);
-                        PowerUpVelocidad powerUp = new PowerUpVelocidad(x, y, "/Users/eric/Desktop/Texturas/PowerUpVelocidad.png", 10, 10000); // Ajusta los parámetros según sea necesario
+                        PowerUpVelocidad powerUp = new PowerUpVelocidad(x, y, "PowerUpVelocidad.png", 10, 10000); // Ajusta los parámetros según sea necesario
                         powerUpsVelocidad.add(powerUp);
                         add(powerUp.getEtiquetaPowerUp(), Integer.valueOf(1));
                         powerUp.getEtiquetaPowerUp().setVisible(true);
