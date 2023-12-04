@@ -59,8 +59,8 @@ public class Jugador {
         this.jugadorVivo = true;
         this.health = 500;
         this.damage = 50;
-        iconoNormal = new ImageIcon("/Users/eric/Desktop/Texturas/Personaje normal.png");
-        iconoAtaque = new ImageIcon("/Users/eric/Desktop/Texturas/Personaje atacando.png");
+        iconoNormal = new ImageIcon("Personaje normal.png");
+        iconoAtaque = new ImageIcon("Personaje atacando.png");
     }
 
     /**
@@ -229,7 +229,7 @@ public class Jugador {
 
         synchronized (enemigos) {
             System.out.println("Atacando a " + enemigos.size() + " enemigos");
-            ImageIcon iconoSpriteAtaque = new ImageIcon("/Users/eric/Desktop/Texturas/ataque.png");
+            ImageIcon iconoSpriteAtaque = new ImageIcon("ataque.png");
             JLabel spriteAtaque = new JLabel(iconoSpriteAtaque,Integer.valueOf(2));
 
             if (spriteAtaque.getIcon() == null) {
