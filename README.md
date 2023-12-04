@@ -40,6 +40,22 @@ El juego se basa en sobrebibir. Poco a poco te van a ir apareciendo enemigos, lo
 
 Para facilitar un poco la supervivencia, podemos encontrar PowerUps y botiquines. Los PowerUps de velocidad son los que tienen el color azul, PowerUps de daño son los que tienen el color verde, y los botiquines tienen el color rojo.
 
+# Tipos de enemigos:
+
+Vampiro:
+
+![vampiro](https://github.com/CarlosBauluz/Demonic-Destruction/assets/150656730/f31d8a82-3fc9-40fa-82c0-aca325c9c124)
+
+No muerto:
+![verde](https://github.com/CarlosBauluz/Demonic-Destruction/assets/150656730/50b46961-dd52-45cc-ad95-54b0ea510c7d)
+
+Lobo:
+![lobo](https://github.com/CarlosBauluz/Demonic-Destruction/assets/150656730/2e6a4791-633a-484b-8f7a-8b918841b61e)
+
+Demonio:
+![rojo](https://github.com/CarlosBauluz/Demonic-Destruction/assets/150656730/a24155be-c67e-487d-ab16-e607e4928eb8)
+
+
   # Funccionamiento del codigo
 
   - Clase Jugador
