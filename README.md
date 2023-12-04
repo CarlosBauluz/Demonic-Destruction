@@ -25,6 +25,20 @@ Demonic-Destruction es un trepidante juego de acción y supervivencia con una vi
 
  - Imagen donde se ve la generación de monstruos de forma aleatoria
 
+  # Como jugar
+
+  El movimiento se basa en el uso de las teclas awsd. Cuando comenzamos partida nos podemos encontrar que tenderemos un personaje en el centro de la pantalla. Ese es nuestro jugador.
+
+  - Arriba tenemos el tiempo que llevamos vivios y debajo una barrita que indica la vida que tenemos.
+
+  - Abajo a la izquierda tenmos el cooldown de nuestro escudo, y abajo derecha tenemos el cooldown de nuestro ataque masivo.
+
+Para atacar no tenemos que hacer nada, el ataque es automatico. El jugador ataca automaticamente en intervalos de dos segundos hacia la ultima direccion que miraba. Si le damos a la tecla "q", podemos ver que se nos aplicara un escudo durante un breve periodo de tiempo. Si pulsamos la tecla "e", haremos una ataque en area.
+
+El juego se basa en sobrebibir. Poco a poco te van a ir apareciendo enemigos, los cuales tienen comom objetivo ir a por el jugador. El objetivo es sobrebibir y matar al maximo de enemigos que se pueda.
+
+Para facilitar un poco la supervivencia, podemos encontrar PowerUps y botiquines. Los PowerUps de velocidad son los que tienen el color azul, PowerUps de daño son los que tienen el color verde, y los botiquines tienen el color rojo.
+
   # Funccionamiento del codigo
 
   - Clase Jugador
