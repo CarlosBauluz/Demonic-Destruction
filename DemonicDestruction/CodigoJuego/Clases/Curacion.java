@@ -21,7 +21,7 @@ public class Curacion {
     public Curacion(int x, int y) {
         this.x = x;
         this.y = y;
-        ImageIcon iconoCuracion = new ImageIcon("/Users/eric/Desktop/Texturas/Curacion.png"); // Cambia a la ruta de tu imagen
+        ImageIcon iconoCuracion = new ImageIcon("Curacion.png"); // Cambia a la ruta de tu imagen
         etiquetaCuracion = new JLabel(iconoCuracion);
         etiquetaCuracion.setBounds(x, y, iconoCuracion.getIconWidth(), iconoCuracion.getIconHeight());
     }
