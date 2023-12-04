@@ -66,7 +66,7 @@ Para facilitar un poco la supervivencia, podemos encontrar PowerUps y botiquines
     - Representa ítems de curación que el jugador puede recoger para restaurar salud.
   - Clase FinJuegoVentana
     - Se activa cuando el jugador muere, mostrando estadísticas como el tiempo sobrevivido y los enemigos enfrentados.
-    -Permite reiniciar el juego o salir.
+    - Permite reiniciar el juego o salir.
   - Funcionamiento General
     - Al iniciar el juego, se crea una instancia de Ventanajuego, que a su vez inicializa el jugador, los enemigos, y otros elementos.
     - El juego se actualiza en intervalos regulares mediante un timer, que controla el movimiento de los enemigos, la detección de colisiones, y las actualizaciones de estado.
