@@ -29,7 +29,7 @@ Demonic-Destruction es un trepidante juego de acción y supervivencia con una vi
 
   El movimiento se basa en el uso de las teclas awsd. Cuando comenzamos partida nos podemos encontrar que tenderemos un personaje en el centro de la pantalla. Ese es nuestro jugador.
 
-  - Arriba tenemos el tiempo que llevamos vivios y debajo una barrita que indica la vida que tenemos.
+  - Arriba tenemos el tiempo que llevamos vivos y debajo una barrita que indica la vida que tenemos.
 
   - Abajo a la izquierda tenmos el cooldown de nuestro escudo, y abajo derecha tenemos el cooldown de nuestro ataque masivo.
 
