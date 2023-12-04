@@ -1,4 +1,4 @@
-<img width="988" alt="Juego en funccionamiento" src="https://github.com/CarlosBauluz/Demonic-Destruction/assets/150656730/1f470434-de20-4b9a-a53e-02635af3a3ab"># Introducción
+# Introducción
 
 Demonic-Destruction es un trepidante juego de acción y supervivencia con una vibrante mezcla de elementos roguelite. En este emocionante universo, los jugadores enfrentan la invasión demoníaca, combatiendo implacables hordas de enemigos en un desafío de resistencia y astucia.
 
@@ -21,8 +21,7 @@ Demonic-Destruction es un trepidante juego de acción y supervivencia con una vi
  
  # Imagen del juego Iniciado
 
- ![Uploading Juego en funccionamiento.png…]()
-
+ <img width="990" alt="Captura de pantalla 2023-12-04 a las 8 49 13" src="https://github.com/CarlosBauluz/Demonic-Destruction/assets/150656730/7b03cd01-5d5d-4063-b406-d38001f310c9">
 
  - Imagen donde se ve la generación de monstruos de forma aleatoria
 
