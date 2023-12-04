@@ -36,7 +36,7 @@ public class Ventanagrafica extends JFrame {
         setLayout(new BorderLayout());
 
         // Load the background image
-        backgroundImage = new ImageIcon("/Users/eric/Desktop/Texturas/Fondo menu.png").getImage();
+        backgroundImage = new ImageIcon("Fondo menu.png").getImage();
 
         ImagePanel menuPanel = new ImagePanel();
         GridBagConstraints gbc = new GridBagConstraints();
